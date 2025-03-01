@@ -1,86 +1,68 @@
-/* .container{
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-     grid-template-rows: 100px;
-     gap: 10px;
-     grid-template: auto;
-     background-color: aqua;
-     border: 5px solid black;
-}
-.box{
-background-color: yellow;
-border-radius: 10%;
-width: 450px;
-height: 100px;
-overflow: hidden;
-} */
 /* Resetovanje margina i paddinga */
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
- 
- /* Glavni stil za telo stranice */
- body {
-     font-family: Arial, sans-serif;
-     background-color: #f4f4f4;
- }
- 
- /* Kontener za galeriju */
- .gallery-container {
-     display: grid; /* Grid layout */
-     grid-template-columns: repeat(3, 1fr); /* Tri kolone */
-     gap: 20px; /* Razmak između slika */
-     padding: 20px;
-     background-color: lightgray;
- }
- 
- /* Stilizovanje svakog elementa galerije */
- .gallery-item {
-     height: 200px; /* Visina svakog elementa */
-     background-size: cover; /* Prilagođavanje slike */
-     background-position: center; /* Centriranje slike */
-     border-radius: 10px; /* Zaobljeni ivice */
- }
- 
- /* Pozadina za svaku sliku pomoću ID-a */
- #item1 {
-     background-image: url("https://i.pinimg.com/736x/17/1c/a2/171ca25053719bcd076a12e1e9d8a846.jpg");
- }
- 
- #item2 {
-     background-image: url("https://i.pinimg.com/736x/a4/c1/dc/a4c1dcd3c7391d568c2c1cf49c64db92.jpg");
- }
- 
- #item3 {
-     background-image: url("https://i.pinimg.com/736x/ea/fa/e9/eafae97e521b89eb4962631e536473e9.jpg");
- }
- 
- /* Overlay sa tekstom i dugmetom */
- .overlay {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     height: 100%;
-     background-color: rgba(0, 0, 0, 0.5); /* Polupropusni crni sloj */
-     color: white; /* Bela boja za tekst */
-     padding: 10px;
- }
- 
- /* Stil dugmeta */
- .button {
-     padding: 10px 20px;
-     background-color: #f39c12;
-     color: white;
-     text-decoration: none;
-     border-radius: 5px;
-     font-weight: bold;
- }
- 
- /* Hover efekat za dugme */
- .button:hover {
-     background-color: #e67e22; /* Tamnija boja dugmeta */
- }
- 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Glavni stil za telo stranice */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Kontener za galeriju */
+.gallery-container {
+    display: grid; /* Grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Tri kolone */
+    gap: 20px; /* Razmak između slika */
+    padding: 20px;
+}
+
+/* Stilizovanje svakog elementa galerije */
+.gallery-item {
+    height: 200px; /* Visina svakog elementa */
+    background-size: cover; /* Prilagođavanje slike */
+    background-position: center; /* Centriranje slike */
+    border-radius: 10px; /* Zaobljeni ivice */
+}
+
+/* Pozadina za svaku sliku pomoću ID-a */
+#item1 {
+    background-image: url("https://i.pinimg.com/736x/17/1c/a2/171ca25053719bcd076a12e1e9d8a846.jpg");
+}
+
+#item2 {
+    background-image: url("https://i.pinimg.com/736x/6e/ce/9e/6ece9ec53bcc54662c3e73cc549d44be.jpg");
+}
+
+#item3 {
+    background-image: url("https://i.pinimg.com/736x/d1/c0/52/d1c05255ca6d61d7cfff4055b2d2a591.jpg");
+}
+
+/* Overlay sa tekstom i dugmetom */
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Polupropusni crni sloj */
+    color: white; /* Bela boja za tekst */
+    padding: 10px;
+}
+
+/* Stil dugmeta */
+.button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hover efekat za dugme */
+.button:hover {
+    background-color: #e67e22; /* Tamnija boja dugmeta */
+}
