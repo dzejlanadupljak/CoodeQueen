@@ -1,42 +1,53 @@
-body{
-    margin: 0;
-    padding: 0;
-    text-align: center;
+/* Stilizacija celog tela stranice */
+body {
+    margin: 0; /* Uklanja podrazumevane margine */
+    padding: 0; /* Uklanja podrazumevane paddinge */
+    text-align: center; /* Centriranje teksta unutar celog tela */
 }
-header{
-    background-color: lightpink;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-nav ul{
-    text-align: center;
-    list-style: none;
-   position:absolute;
-   right: 2%;
-   margin-top: 0;
 
+/* Stilizacija zaglavlja */
+header {
+    background-color: lightpink; /* Postavlja svetlo roze pozadinu zaglavlja */
+    margin: 0; /* Uklanja marginu oko zaglavlja */
+    display: flex; /* Koristi flexbox za raspoređivanje elemenata */
+    align-items: center; /* Poravnava sadržaj vertikalno u centar */
+    padding: 10px; /* Dodaje razmak unutar zaglavlja */
 }
-nav ul li{
-    display: inline;
-  justify-content: space-around;
 
+/* Stilizacija navigacionog menija */
+nav ul {
+    text-align: center; /* Centriranje teksta u listi */
+    list-style: none; /* Uklanja podrazumevane oznake liste */
+    position: absolute; /* Pozicionira listu apsolutno u odnosu na roditeljski element */
+    right: 2%; /* Postavlja listu na 2% od desnog ruba */
+    margin-top: 0; /* Uklanja dodatni gornji razmak */
 }
-.cards{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 10px;
+
+/* Stilizacija stavki unutar navigacione liste */
+nav ul li {
+    display: inline; /* Prikazuje stavke liste u jednom redu */
+    justify-content: space-around; /* Raspoređuje stavke  */
 }
-.card{
-    background-color: lightgrey;
-    border-radius: 5px;
-    width: 250px;
-    box-shadow: 0 4px 8px gray;
+
+/* Stilizacija sekcije sa karticama */
+.cards {
+    display: flex; /* Koristi flexbox za raspoređivanje kartica */
+    justify-content: center; /* Centriranje kartica horizontalno */
+    gap: 20px; /* Razmak između kartica */
+    margin: 10px; /* Dodaje spoljašnji razmak oko sekcije */
 }
-img{
-    width: 80%;
-    border-radius: 5px;
-    margin-top: 10px;
+
+/* Stilizacija pojedinačne kartice */
+.card {
+    background-color: lightgrey; /* Svetlo siva pozadina */
+    border-radius: 5px; /* Zaobljeni uglovi */
+    width: 250px; /* Širina kartice */
+    box-shadow: 0 4px 8px gray; /* Dodaje senku kartici */
+}
+
+/* Stilizacija slika unutar kartica */
+img {
+    width: 80%; /* Postavlja širinu slike na 80% širine kartice */
+    border-radius: 5px; /* Zaobljeni uglovi slike */
+    margin-top: 10px; /* Razmak između vrha kartice i slike */
 }
