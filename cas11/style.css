@@ -1,37 +1,43 @@
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-/* .dropdown-btn{
-    background-color: aquamarine;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: antiquewhite;
-  
-    min-width: 160px;
+/* Glavni kontejner za dropdown meni */
+.dropdown {
+    position: relative; /* Postavlja relativnu poziciju za unutrašnje elemente */
+    display: inline-block; /* Čini da dropdown bude inline, ali može sadržavati blok elemente */
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
+/* Ova sekcija je zakomentarisana i ne utiče trenutno na stil */
+/* 
+.dropdown-btn {
+    background-color: aquamarine; /* Boja pozadine dugmeta */
+    color: black; /* Boja teksta */
+    padding: 10px 20px; /* Unutrašnji razmak oko teksta */
+    border: none; /* Uklanja border */
+    cursor: pointer; /* Postavlja kursor na pointer kada se pređe mišem */
 }
-.dropdown-content a{
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    border: 2px solid black;
 
-} */
- .content{
-    display: none;
-    position: absolute;
-    background-color: aqua;
- }
-.ham:hover .content{
-    display: block;
+.dropdown-content {
+    display: none; /* Skriva dropdown sadržaj dok korisnik ne interaguje */
+    position: absolute; /* Postavlja apsolutnu poziciju u odnosu na .dropdown */
+    background-color: antiquewhite; /* Boja pozadine menija */
+    min-width: 160px; /* Minimalna širina menija */
 }
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Prikazuje dropdown sadržaj kada korisnik pređe mišem */
+}
+
+.dropdown-content a {
+    display: block; /* Svaka stavka menija prikazana kao blok element */
+    padding: 10px; /* Unutrašnji razmak */
+    text-decoration: none; /* Uklanja podvlačenje linkova */
+    border: 2px solid black; /* Dodaje okvir oko stavki menija */
+}
+*/
+
+/* Stil za dropdown sadržaj koji se pojavljuje pri hoveru na ikonicu hamburgera */
+.content {
+    display: none; /* Skriva sadržaj dok se ne aktivira hover */
+    position: absolute; /* Apsolutna pozicija u odnosu na .dropdown */
+    background-color: aqua; /* Boja pozadine sadržaja */
+}
+
+
