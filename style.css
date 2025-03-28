@@ -1,0 +1,75 @@
+/* Osnovni kvadrat koji menja boju kada korisnik pređe mišem */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 1s ease;
+}
+
+/* Promena boje pri hover efektu */
+.box:hover {
+    background-color: aqua;
+}
+
+/* Animirani kvadrat koji neprestano menja boju */
+.animated-box {
+    width: 100px;
+    height: 100px;
+    animation: promenaBoja 3s infinite;
+}
+
+@keyframes promenaBoja {
+    0% { background-color: green; }
+    50% { background-color: pink; }
+    100% { background-color: yellow; }
+}
+
+/* Kvadrat koji se pomera gore-dole tri puta */
+.move-box {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation: pomeranje 3s 3;
+}
+
+@keyframes pomeranje {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(200px); }
+    100% { transform: translateY(0); }
+}
+
+/* Spiner efekat - rotirajući krug */
+.spinner {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+    border-top: 5px solid lightskyblue;
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Dugme sa pulsirajućim efektom */
+.button-pulse {
+    background-color: hotpink;
+    border: none;
+    padding: 10px 20px;
+    animation: pulse 1.5s infinite;
+    transition: animation-duration 0.2s;
+}
+
+/* Ubrzavanje pulsa pri hover efektu */
+.button-pulse:hover {
+    animation-duration: 0.5s;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
