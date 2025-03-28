@@ -1,0 +1,30 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    transition:transform 0.5s ease-in-out, opacity 0.5s ease-in ;
+    border: 2px solid black;
+    
+}
+
+.scale-example:hover{
+transform: scale(1.5);
+background-color: red;
+
+}
+.rotate-example:hover{
+    transform: rotate(45deg);
+    background-color: red;
+}
+.translate-example:hover{
+    transform: translate(50px,20px);
+}
+.skew-example:hover{
+    transform: skew(20deg,10deg);
+
+}
+
+
