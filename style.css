@@ -73,13 +73,3 @@
     100% { transform: scale(1); }
 }
 
-/* Tekst koji se postepeno pojavljuje */
-.fade-in-text {
-    opacity: 0;
-    animation: fade 4s;
-}
-
-@keyframes fade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
