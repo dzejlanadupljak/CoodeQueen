@@ -2,7 +2,7 @@
     position: relative;
     display: inline-block;
 }
-/* .dropdown-btn{
+.dropdown-btn{
     background-color: aquamarine;
     color: black;
     padding: 10px 20px;
@@ -17,7 +17,7 @@
     min-width: 160px;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
     display: block;
 }
 .dropdown-content a{
@@ -26,12 +26,12 @@
     text-decoration: none;
     border: 2px solid black;
 
-} */
+}
  .content{
     display: none;
     position: absolute;
     background-color: aqua;
  }
-.ham:hover .content{
+i:hover .content{
     display: block;
 }

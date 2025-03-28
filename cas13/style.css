@@ -1,0 +1,36 @@
+button{
+    background-color: aqua;
+    color: red;
+    border: 1px solid black;
+    transition:  background-color 1s ease;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+.card:hover{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: burlywood;
+}
+input{
+    width: 100px;
+   background-color: aquamarine;
+   transition: background-color 1s ease ;
+
+}
+input:focus{
+background-color: red;
+}
+button:active{
+    background-color: yellow;
+}

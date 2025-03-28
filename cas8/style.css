@@ -58,46 +58,6 @@ dd{
     position: static; /* Podrazumevana pozicija elementa (ne pomera se u odnosu na drugi sadržaj) */
     border: 1px solid black; /* Crna ivica debljine 1px */
 }
-<<<<<<< HEAD
-
-.prvi1 {
-    background-color: blue; /* Plava pozadina */
-    width: 200px; /* Širina 200px */
-    height: 200px; /* Visina 200px */
-    position: relative; /* Relativna pozicija u odnosu na početnu */
-    left: 40px; /* Pomera element 40px ulevo */
-    border: 1px solid black; /* Crna ivica */
-}
-
-.fixed {
-    background-color: red; /* Crvena pozadina */
-    width: 100px; /* Širina 100px */
-    height: 100px; /* Visina 100px */
-    position: fixed; /* Element je fiksiran i ostaje na istom mestu prilikom skrolovanja */
-    border: 1px solid black; /* Crna ivica */
-    margin-top: -50%; /* Pomera element nagore za 50% u odnosu na njegov roditeljski element */
-}
-
-/* Stilizacija dodatnog kontejnera i apsolutno pozicioniranog elementa */
-
-/* 
-.conteiner2 {
-    background-color: blue;  Postavlja plavu pozadinu za drugi kontejner 
-    width: 200px;  Širina 200px 
-    height: 200px;  Visina 200px 
-    border: 1px solid black;  Crna ivica 
-}
-
-.absolute {
-    width: 100px;  Širina elementa 
-    height: 100px;  Visina elementa 
-    background-color: antiquewhite;  Postavlja svetlu bež boju za pozadinu 
-    position: absolute;  Apsolutna pozicija (pomera se u odnosu na najbližeg relativno pozicioniranog roditelja) 
-    left: 20px;  Pomera element 20px ulevo 
-    bottom: 10px;  Pomera element 10px nagore u odnosu na donju ivicu roditelja 
-} 
-*/
-=======
 .conteiner2{
     background-color: blue;
     width: 200px;
@@ -121,4 +81,3 @@ dd{
 body{
     height: 3000px;
 }
->>>>>>> 471996d ( cas11)

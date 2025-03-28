@@ -38,7 +38,7 @@
 
   
 =======
-/* .block{
+.block{
     display: block;
     width: 200px;
     background-color: aqua;
@@ -57,10 +57,12 @@
 }
 .hidden{
     display: none;
-} */
+}
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    gap: 10px;
     align-items: center;
     height: 200px;
     background-color: lightgrey;
