@@ -1,0 +1,73 @@
+<<<<<<< HEAD
+.container {
+    display: flex; /* Aktiviramo Flexbox */
+    justify-content: space-around; /* Rasporedimo elemente */
+    align-items: center; /* Poravnamo ih po visini */
+    background-color: lightgray;
+    height: 200px;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex; /* Aktiviramo Flexbox */
+    flex-direction: column; /* Postavljamo da idu jedna ispod druge */
+    justify-content: center; /* Centriramo ih vertikalno */
+    align-items: center; /* Centriramo ih horizontalno */
+    background-color: lightgray;
+    height: 400px;
+  }
+
+  .box {
+    width: 150px;
+    height: 100px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    margin: 10px;
+  }
+=======
+.container {
+    display: flex; /* Aktiviramo Flexbox */
+    justify-content: space-around; /* Rasporedimo elemente */
+    align-items: center; /* Poravnamo ih po visini */
+    background-color: lightgray;
+    height: 200px;
+  }
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex; /* Aktiviramo Flexbox */
+    flex-direction: column; /* Postavljamo da idu jedna ispod druge */
+    justify-content: center; /* Centriramo ih vertikalno */
+    align-items: center; /* Centriramo ih horizontalno */
+    background-color: lightgray;
+    height: 400px;
+  }
+
+  .box {
+    width: 150px;
+    height: 100px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    margin: 10px;
+  }
+>>>>>>> 3cbeb01c68ada64e18bd9a3c25cb9b0eb9039854
