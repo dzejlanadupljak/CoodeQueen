@@ -11,12 +11,12 @@
 }
 
 .scale-example:hover{
-transform: scale(1.5);
+transform: scale(1.1);
 background-color: red;
 
 }
 .rotate-example:hover{
-    transform: rotate(45deg);
+    transform: rotate(90deg);
     background-color: red;
 }
 .translate-example:hover{

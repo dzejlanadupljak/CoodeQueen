@@ -15,7 +15,7 @@
 .animated-box {
     width: 100px;
     height: 100px;
-    animation: promenaBoja 3s infinite;
+   animation: promenaBoja 1s infinite;
 }
 
 @keyframes promenaBoja {
@@ -59,12 +59,12 @@
     border: none;
     padding: 10px 20px;
     animation: pulse 1.5s infinite;
-    transition: animation-duration 0.2s;
+    transition:  background-color0.2s;
 }
 
 /* Ubrzavanje pulsa pri hover efektu */
 .button-pulse:hover {
-    animation-duration: 0.5s;
+    background-color: aqua;
 }
 
 @keyframes pulse {
