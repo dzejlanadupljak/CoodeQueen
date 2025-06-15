@@ -1,0 +1,57 @@
+1. Iz niza brojeva izdvoj sve brojeve koji su neparni i veći od 50
+
+
+const brojevi = [12, 75, 23, 56, 89, 31];
+
+2. Pronađi prvu reč u nizu koja sadrži više od 7 slova i sadrži slovo "e"
+
+
+const reci = ["torba", "enciklopedija", "mobilni", "programiranje"];
+
+3. Iz niza učenika izdvoj one koji imaju više od 80 poena, i za njih generiši poruku:
+„Bravo [ime], osvojio si [poeni] poena!“
+
+
+const ucenici = [
+  { ime: "Ana", poeni: 85 },
+  { ime: "Marko", poeni: 40 },
+  { ime: "Jovana", poeni: 95 },
+  { ime: "Petar", poeni: 65 },
+];
+
+4. Pronađi prvi broj iz niza koji je paran i deljiv sa 3.
+
+
+const brojevi = [11, 15, 20, 18, 27, 30];
+
+5.Izdvoji sve reči koje počinju slovom „k“ i imaju tačno 5 slova.
+
+
+const reci = ["kuca", "kamion", "krava", "klupa", "kocka", "kapa"];
+
+6.Pretvori niz imena u niz stringova u formatu: „Ime: ANA“, sve velikim slovima.
+
+
+const imena = ["Ana", "Marko", "Jovana"];
+
+7.Iz niza brojeva filtriraj sve parne brojeve, pa na njih primeni map da dodaš +10 svakom.
+
+const brojevi = [2, 5, 8, 11, 14, 17];
+
+8. Pronađi prvi broj telefona koji počinje sa „06“ i ima tačno 10 cifara.
+
+const telefoni = ["0651234567", "061234567", "0637654321", "06012345678"];
+
+9.Iz niza sportista izdvoj samo one koji su iz zemlje „Srbija“, i vrati niz poruka:
+„[ime] predstavlja Srbiju!“
+
+
+const sportisti = [
+  { ime: "Novak", zemlja: "Srbija" },
+  { ime: "Roger", zemlja: "Švajcarska" },
+  { ime: "Ana", zemlja: "Srbija" },
+];
+
+10. Izdvoji sve reči koje sadrže slovo „a“ i imaju više od 4 slova.
+
+const reci = ["pas", "automobil", "voda", "trava", "zrak", "stolica"];
