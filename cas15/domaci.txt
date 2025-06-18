@@ -1,0 +1,21 @@
+Da li postoji broj koji je tačno jednak nuli?
+
+Da li postoji broj koji je stepen broja 2 (npr. 1, 2, 4, 8, 16...)?
+
+Da li postoji broj koji je deljiv sa 9?
+
+Da li postoji broj koji kada se podeli sa 5 daje ostatak 2?
+
+Da li postoji broj koji je isti kao poslednji broj u nizu?
+
+Da li su svi brojevi celi brojevi?
+
+Da li su svi brojevi pozitivni i manji od 1000?
+
+Da li su svi brojevi deljivi sa 2 ili 3?
+
+Da li su svi brojevi veći od ili jednaki nuli?
+
+Da li su svi brojevi manji od poslednjeg broja u nizu?
+
+
