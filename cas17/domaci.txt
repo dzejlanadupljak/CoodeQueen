@@ -1,0 +1,17 @@
+Ispiši brojeve koji su veći od prosečne vrednosti niza.
+
+Prebroj koliko neparnih brojeva ima u nizu.
+
+Ispiši poruku za svaki broj da li je trocifren ili nije.
+
+Ispiši sve negativne brojeve iz niza.
+
+Pomnoži sve brojeve u nizu i ispiši ukupni proizvod.
+
+Ispiši dvostruku vrednost samo parnih brojeva.
+
+Ispiši sve brojeve koje kada podeliš sa 5 daju ostatak 2.
+
+Nađi najveći broj u nizu koristeći forEach.
+
+Napravi zbir svih pozitivnih brojeva
