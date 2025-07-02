@@ -7,8 +7,8 @@
 
 2.
 const korisnici = [
-  { ime: "Ajsa", godine: 20 },
-  { ime: "Hana", godine: 20 },
+  { ime: "Ema", godine: 18 },
+  { ime: "Hana", godine: 21 },
   ... dodajte jos korisnika
 ];
 
@@ -29,7 +29,7 @@ const proizvodi = [
 
 4.
 let studenti = [
-  { ime: "Ajla", prosek: 9.1 },
+  { ime: "Ana", prosek: 9.1 },
   { ime: "Mitar", prosek: 8.3 },
 ];
 
@@ -48,8 +48,8 @@ const racuni = [
 
 6.
 const korisnici = [
-  { ime: "Ajla", aktivan: false },
-  { ime: "Hana", aktivan: false },
+  { ime: "Sara", aktivan: false },
+  { ime: "Eda", aktivan: false },
   { ime: "Ena", aktivan: true },
 ];
 
