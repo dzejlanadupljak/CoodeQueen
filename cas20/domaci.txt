@@ -1,16 +1,74 @@
+1.
+ Napravi objekat `auto` koji ima sledeća svojstva: marka, model, godina, boje (niz boja).
+ - Dodaj svojstvo `vlasnik`
+ - Izmeni godinu
+ - Izbriši boje
+ - Ispisi samo marku i model
 
-Prikaži "ključ: vrednost" koristeci forEach i entries
-(Object.entries(objekat) ti daje niz nizova: [ključ, vrednost]. Koristi obicnu for petlju da prikažeš svaki par u formatu koji sam stavila.)
+2.
+const korisnici = [
+  { ime: "Ema", godine: 18 },
+  { ime: "Hana", godine: 21 },
+  ... dodajte jos korisnika
+];
 
-Napravi novi objekat koji kombinuje oba objekta na dva nacina
-(Koristi spread operator (...) ili Object.assign da spojiš dva objekta u novi. Ako imaju isto ime ključa, poslednji prepisuje vrednost.)
+ Napravi novi niz imena svih korisnika (`map`).
+ Filtriraj korisnike starije od 18 godina (`filter`).
+ Ispiši korisnike čije ime ima 4 ili više slova 
 
-Napravi novi objekat gde su ključevi i vrednosti zamenjeni
-(Prođi kroz Object.entries(objekat) sa for petljom, i za svaki par postavi: novaVrednost kao ključ, a stariKljuc kao vrednost.
-dakle ako je u starom objektu bilo ime:"ajsa", sad nek bude ajsa:"ime")
+3.
+const proizvodi = [
+  { naziv: "Majica", cena: 1200 },
+  { naziv: "Patike", cena: 6000 },
+  { naziv: "Kačket", cena: 800 },
+  { naziv: "Trenerka", cena: 3000 },
+];
 
-Napravi funkciju koja proverava da li objekat ima svojstvo koje prosledite kao argument, i vratite 'ima' ili 'nema'
-(Koristi metodu hasOwnProperty("naziv") da proveriš da li objekat sadrži neki ključ, ako sadrzi vrati 'ima' ako ne 'nema')
+ Filtriraj proizvode čija je cena manja od 3000
+ Iz rezultata napravi niz samo njihovih naziva (koristi `map`)
 
-Napravi novi objekat koji sadrži samo "truthy" polja 
-(Prođi kroz sve parove (Object.entries) i zadrži samo one gde je vrednost truthy (nije false, 0, itd))
+4.
+let studenti = [
+  { ime: "Ana", prosek: 9.1 },
+  { ime: "Mitar", prosek: 8.3 },
+];
+
+ Dodaj još jednog studenta u niz
+ Izbriši studenta sa prosekom manjim od 9
+ Ispisi imena svih preostalih studenata
+
+5.
+const racuni = [
+  { naziv: "Struja", iznos: 3200 },
+  { naziv: "Voda", iznos: 800 },
+  { naziv: "Internet", iznos: 1500 },
+];
+
+ Izračunaj ukupan iznos svih računa pomoću reduce
+
+6.
+const korisnici = [
+  { ime: "Sara", aktivan: false },
+  { ime: "Eda", aktivan: false },
+  { ime: "Ena", aktivan: true },
+];
+
+ Napravi funkciju koja vraca prvog korisnika koji je aktivan
+
+7.
+const filmovi = [
+  { naslov: "Matrix", godina: 1999 },
+  { naslov: "Inception", godina: 2010 },
+  { naslov: "The Batman", godina: 2022 },
+];
+
+ Dodaj svakom filmu novo svojstvo `star` koje je true ako je film stariji od 2015, false ako nije
+
+8.
+const proizvodi = [
+  { naziv: "Monitor", cena: 15000 },
+  { naziv: "Tastatura", cena: 3000 },
+  { naziv: "Miš", cena: 2000 },
+];
+
+Napravi fju koja vraca proizvod sa najvećom cenom
