@@ -7,7 +7,7 @@ const osoba = {
 };
 
 console.log(osoba.pozdrav());
-// ➔ Ispisuje: "zdravo ja sam dzejlana"
+// Ispisuje: "zdravo ja sam dzejlana"
 // Obicno pozivanje metode – 'this' pokazuje na objekat 'osoba'
 
 
@@ -16,8 +16,8 @@ const osoba1 = {
   ime: "ena"
 };
 
-// ❟ PRVO KORIŠĆENJE 'call'
-// 🔹 ŠTA JE call?
+// PRVO KORIŠĆENJE 'call'
+//  ŠTA JE call?
 // Metoda .call() omogućava da pozovemo funkciju i eksplicitno postavimo šta 'this' treba da bude.
 // Sintaksa: funkcija.call(noviThis, arg1, arg2, ...)
 
@@ -33,12 +33,12 @@ function recenica(rec1, rec2) {
 
 // PONOVO KORIŠĆENJE 'call'
 console.log(recenica.call(osoba1, "voli da", "trci"));
-// ➔ Ispisuje: "ena kaze: voli da, trci"
+// Ispisuje: "ena kaze: voli da, trci"
 // 'call' poziva funkciju i odmah prosleđuje argumente jedan po jedan
 
 
-// ❟ PRVO KORIŠĆENJE 'apply'
-// 🔹 ŠTA JE apply?
+//  PRVO KORIŠĆENJE 'apply'
+// ŠTA JE apply?
 // apply() radi isto kao call(), ali umesto da prosleđuje argumente jedan po jedan, koristi niz.
 // Sintaksa: funkcija.apply(noviThis, [arg1, arg2, ...])
 
@@ -47,15 +47,15 @@ console.log(recenica.apply(osoba, ["ide", "na more"]));
 // 'this' pokazuje na 'osoba', a argumenti dolaze iz niza
 
 
-// ❟ PRVO KORIŠĆENJE 'bind'
-// 🔹 ŠTA JE bind?
+//  PRVO KORIŠĆENJE 'bind'
+//  ŠTA JE bind?
 // bind() ne izvršava odmah funkciju, već vraća novu funkciju sa trajno vezanim 'this' kontekstom i opcionalno argumentima.
 // Sintaksa: const novaFunkcija = funkcija.bind(noviThis, arg1, arg2, ...)
 
 const celarecenica = recenica.bind(osoba1, "uci", "programiranje");
 
 console.log(celarecenica());
-// ➔ Ispisuje: "ena kaze: uci, programiranje"
+// Ispisuje: "ena kaze: uci, programiranje"
 // 'this' je trajno postavljen na 'osoba1', i argumenti su već prosleđeni
 
 
@@ -71,7 +71,7 @@ const ucenici = [
 
 // Koristimo 'call' unutar forEach da pozovemo 'info' za svakog ucenika
 ucenici.forEach((ucenik) => info.call(ucenik));
-// ➔ Ispisuje:
+//  Ispisuje:
 // "Sara ima 17 godina."
 // "Tarik ima 18 godina."
 
@@ -88,7 +88,7 @@ console.log(prijava.apply(kandidat, ["gimnazija", "opsti"]));
 // ➔ Ispisuje: "Imran se prijavio/la za opsti u gimnazija."
 
 
-// ✅ Ukratko definicije:
+// Ukratko definicije:
 // call – Poziva funkciju i postavlja 'this', argumenti se navode jedan po jedan
 // apply – Isto što i call, ali se argumenti prosleđuju kao niz
 // bind – Ne izvršava odmah funkciju, već vraća novu funkciju sa vezanim 'this' i argumentima
