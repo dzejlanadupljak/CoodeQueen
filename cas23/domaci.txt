@@ -1,0 +1,9 @@
+Napravi funkciju koja ispisuje ime i prezime iz objekta koristeći call. Pozovi je za dva različita objekta.
+
+Kreiraj objekat sa metodom koja vraća pozdrav sa imenom. Koristi bind da napraviš novu funkciju vezanu za drugi objekat i pozovi je.
+
+Napravi funkciju koja prima dva broja i vraća njihov zbir. Pozovi je pomoću apply sa nizom argumenata i različitim kontekstom (this).
+
+Kreiraj objekat koji ima metodu za prikaz starosti. Koristi call da pozoveš tu metodu za niz objekata sa različitim starostima.
+
+Napravi funkciju za računanje cene sa popustom. Koristi bind da unapred postaviš popust i kontekst, a zatim pozovi funkciju sa različitim cenama.
