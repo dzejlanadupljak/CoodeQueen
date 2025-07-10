@@ -1,5 +1,5 @@
 // Deklaracija niza brojeva
-const niz = [2, 3, 4, 6, 7, 5]
+// const niz = [2, 3, 4, 6, 7, 5]
 
 // Provera da li postoji bar jedan paran broj u nizu
 let parni = niz.some((par) => par % 2 === 0) 
@@ -69,3 +69,7 @@ let ostatak = niz.some((br) => br % 4 === 0)
 
 console.log(ostatak) 
 // Ispis: true (jer 4 je deljivo sa 4)
+
+
+
+

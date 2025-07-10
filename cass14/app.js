@@ -59,3 +59,5 @@ const bro = [34, 129, 245, 456, 2345, 1001];
 let rezul = bro.find((broj) => broj > 999 && String(broj)[0] === "2"); 
 // traži prvi broj veći od 999 koji počinje cifrom 2
 console.log(rezul);
+
+

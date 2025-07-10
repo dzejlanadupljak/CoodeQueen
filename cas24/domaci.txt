@@ -1,0 +1,51 @@
+🔹Zadatak 1 – Korisnik
+Napravite konstruktorsku funkciju Korisnik(ime, godine).
+Dodajte metodu predstaviSe() koja ispisuje:
+"Zdravo, ja sam [ime] i imam [godine] godina."
+Kreirajte dva korisnika i pozovite metodu.
+
+🔹Zadatak 2 – Film
+Napravite konstruktor Film(naziv, godina, zanr).
+Dodajte metodu info() preko prototype koja ispisuje sve podatke o filmu.
+Napravite bar dva filma i pozovite metodu.
+
+🔹Zadatak 3 – Proizvod i Popust
+Napravite konstruktor Proizvod(naziv, cena).
+Dodajte metodu popust(iznos) koja smanjuje cenu proizvoda.
+Kreirajte jedan proizvod, primenite popust i ispišite rezultat.
+
+🔹Zadatak 4 – Knjiga
+Napravite konstruktor Knjiga(naslov, autor).
+Dodajte metodu promeniNaslov(noviNaslov) koja menja naslov.
+Primenite metodu na objektu.
+
+🔹Zadatak 5 – Zivotinja → Pas (call)
+Napravite Zivotinja(vrsta, noge)
+Napravite Pas(ime) koji poziva Zivotinja pomoću call() i dodaje osobinu ime.
+Dodajte metodu laj() koja ispisuje " ja sam [ime]!"
+
+🔹Zadatak 6 – Bankovni račun
+Napravite konstruktor Racun(vlasnik, stanje).
+Dodajte metodu uplati(iznos) i isplati(iznos).
+Primenite obe metode i ispišite stanje.
+
+🔹Zadatak 7 – Studenti + metoda preko prototype
+Napravite Student(ime, prosek)
+Dodajte metodu polozio() koja vraća true ako je prosek veći od 6.
+Primenite za nekoliko studenata.
+
+🔹Zadatak 8 – Televizor i SmartTV
+Napravite Televizor(brend, velicina).
+Napravite SmartTV koji poziva Televizor.call() i dodaje wifi = true.
+Dodajte metodu info() koja prikazuje sve podatke.
+
+🔹Zadatak 9 – Vozilo + metoda vozi()
+Napravite Vozilo(tip, brzina)
+Dodajte metodu vozi() koja ispisuje:
+"Tip vozila [tip] vozi brzinom [brzina]km/h"
+
+🔹Zadatak 10 – Katalog knjiga
+Napravite više knjiga pomoću konstruktora Knjiga.
+Zatim ih dodajte u niz katalog.
+Na kraju, napišite funkciju koja prolazi kroz katalog i poziva .info() metodu za svaku knjigu.
+
