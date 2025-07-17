@@ -1,0 +1,24 @@
+Zadatak 1: Promeni veličinu teksta
+Kada klikneš dugme, paragraf treba da poveća veličinu slova (npr. sa 16px na 30px).
+Koristi style.fontSize, getElementById, addEventListener.
+
+
+
+Zadatak 2: Klikom se dodaje dugme koje klikom menja boju stranice
+Prvi klik doda novo dugme, to dugme menja pozadinu stranice u žutu kada se klikne.
+
+
+
+Zadatak 3: Obrni boje teksta i pozadine
+Kada klikneš dugme:
+Tekst paragrafa postaje bele boje,
+Pozadina paragrafa postaje crna.
+Koristi style.color, style.backgroundColor.
+
+
+
+Zadatak 4: Promeni sadržaj dugmeta
+Kada se dugme klikne, njegov tekst (textContent) se menja u „Kliknuto!”.
+
+Koristi this.textContent = "Kliknuto!".
+

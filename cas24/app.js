@@ -26,6 +26,7 @@ function Osoba(ime, prezime) {
   
   // Poziv metode
   o3.pozdrav();
+  o4.pozdrav()
   
   
   // PRIMER 2 – Vozilo i Auto (nasleđivanje preko call)
