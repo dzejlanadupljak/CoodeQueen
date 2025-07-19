@@ -1,0 +1,34 @@
+ZADATAK 1: Promena boje naslova
+Na stranici se nalazi <h1> element sa ID-jem naslov i jedno dugme.
+Kada korisnik klikne na dugme, tekst naslova treba da postane crven.
+
+Koristi:
+getElementById, style.color, addEventListener
+
+ZADATAK 2: Povećaj sve naslove
+Na stranici se nalazi više <h2> elemenata sa klasom naslov.
+Kada klikneš dugme, svi naslovi treba da povećaju veličinu slova na 40px.
+
+Koristi:
+getElementsByClassName, petlju (for), style.fontSize
+
+ ZADATAK 3: Ukloni prvi paragraf
+Na stranici se nalazi više <p> elemenata.
+Kada klikneš dugme, prvi paragraf treba da se ukloni sa stranice.
+
+Koristi:
+getElementsByTagName, remove(), addEventListener
+
+ZADATAK 4: Sakrij određeni element
+Na stranici se nalazi <div class="okvir">Tekst</div> i dugme.
+Kada se klikne dugme, div treba da nestane (display: none).
+
+Koristi:
+querySelector, style.display = "none", addEventListener
+
+ZADATAK 5: Oboj sve kutije
+Na stranici ima više <div> elemenata sa klasom kutija.
+Kada klikneš dugme, sve kutije treba da postanu žute.
+
+Koristi:
+querySelectorAll, forEach, style.backgroundColor, addEventListener
