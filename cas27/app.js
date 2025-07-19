@@ -77,7 +77,7 @@ const klik1 = document.getElementById("klik").addEventListener("click", function
 
 const naslov = document.querySelectorAll("#naslov")
 // Selektuje sve elemente sa ID-jem "naslov"
-// ⚠️ ID treba da bude jedinstven! Preporuka je da ovde bude klasa umesto ID
+// ID treba da bude jedinstven! Preporuka je da ovde bude klasa umesto ID
 
 document.querySelector("#klik").addEventListener("click", function() {
     // Kada kliknemo na dugme sa ID-jem "klik"...
