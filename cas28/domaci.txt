@@ -1,0 +1,20 @@
+Zadatak:
+Napravi <input type="text" id="ime"> i <button id="posalji">Pošalji</button>
+Kada se klikne dugme, ispiši vrednost unetog imena u konzolu.
+
+Zadatak:
+Napravi <p id="info" class="crveni">Tekst</p>
+U JS proveri da li ima klasu crveni, pa je ukloni i dodaj klasu plavi.
+
+Zadatak:
+Napravi <div id="brojac">0</div> i dugme <button id="povecaj">+</button>
+Kad se klikne dugme, broj u #brojac se poveća za 1.
+
+Zadatak:
+Kreiraj dugme koje kad se klikne sakrije neki element pomoću style.display = "none"
+(npr. sakrije paragraf sa tekstom).
+
+Zadatak:
+Napravi <button id="tema">Promeni temu</button>
+Kad se klikne, neka se cela stranica prebaci iz svetle u tamnu temu i obrnuto (dodaj/ukloni klasu dark-mode na <body>).
+
