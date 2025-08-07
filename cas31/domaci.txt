@@ -1,0 +1,39 @@
+ZADATAK 5:
+Kreiraj dugme.
+Kada klikneš na njega, prikaži alert koji ispisuje:
+
+"Kliknuto na dugme!"
+
+i njegov tekst (npr. "Pošalji")
+
+Koristi event.target.textContent.
+
+ZADATAK 6:
+Dodaj click event na document i proveri da li je kliknut button. Ako jeste, promeni mu boju u crvenu.
+
+js
+Copy
+Edit
+if (event.target.tagName === "BUTTON") {
+  event.target.style.backgroundColor = "red";
+}
+ZADATAK 7:
+Napravite formu sa input poljem i dugmetom.
+Klikom na dugme, spreči slanje forme koristeći event.preventDefault() i ispiši "Forma zaustavljena" u konzoli.
+
+ZADATAK 8:
+Napravite 3 div elementa različitih boja.
+Dodaj click event svakom koji:
+
+Menja boju kliknutog diva u nasumičnu boju
+
+Iskoristi event.target da tačno znaš koji je kliknut
+
+ZADATAK 9:
+Napravi div koji sadrži više dugmića.
+Postavi click event samo na div, ali pomoću event.target reaguj samo ako je kliknut button.
+
+ZADATAK 10:
+Dodaj click event na body koji beleži svaki klik korisnika u konzoli.
+Međutim, ako korisnik klikne na neki button, koristi stopPropagation() da taj klik ne dođe do body.
+
