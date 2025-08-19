@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+  <h2>Dodaj proizvod</h2>
+  <input type="text" id="naziv" placeholder="Naziv proizvoda">
+  <input type="text" id="cena" placeholder="Cena">
+  <button onclick="dodajProizvod()">Dodaj</button>
+
+  <h2>Pretraga i sortiranje</h2>
+  <input type="text" id="pretraga" placeholder="Pretraži proizvode">
+  <select id="sortiranje">
+    <option value="naziv">Sortiraj po nazivu</option>
+    <option value="cena">Sortiraj po ceni</option>
+  </select>
+
+  <h2>Proizvodi</h2>
+  <ul id="listaProizvoda"></ul>
+
+  <h2>Korpa</h2>
+  <ul id="korpa"></ul>
+  <h3 id="ukupno">Ukupno: 0 RSD</h3>
+
+  <script>
+    let proizvodi = [];
+    let korpa = [];
+
+    function dodajProizvod() {
+      const naziv = document.getElementById("naziv").value.trim();
+      const cena = parseFloat(document.getElementById("cena").value);
+      if (!naziv || isNaN(cena) || cena <= 0) return;
+      proizvodi.push({ id: Date.now(), naziv, cena });
+      document.getElementById("naziv").value = "";
+      document.getElementById("cena").value = "";
+      prikazi();
+    }
+
+    function dodajUKorpu(id) {
+      const proizvod = proizvodi.find(p => p.id === id);
+      if (proizvod) {
+        korpa.push(proizvod);
+        prikazi();
+      }
+    }
+
+    function ukloniIzKorpe(id) {
+      korpa = korpa.filter(p => p.id !== id);
+      prikazi();
+    }
+
+    function prikazi() {
+      const pretraga = document.getElementById("pretraga").value.toLowerCase();
+      const sortiranje = document.getElementById("sortiranje").value;
+
+      let filtrirani = proizvodi.filter(p => p.naziv.toLowerCase().includes(pretraga));
+
+      if (sortiranje === "naziv") {
+        filtrirani.sort((a, b) => a.naziv.localeCompare(b.naziv));
+      } else if (sortiranje === "cena") {
+        filtrirani.sort((a, b) => a.cena - b.cena);
+      }
+
+      const listaProizvoda = document.getElementById("listaProizvoda");
+      listaProizvoda.innerHTML = "";
+      filtrirani.forEach(p => {
+        const li = document.createElement("li");
+        li.innerHTML = `${p.naziv}: ${p.cena} RSD <button onclick="dodajUKorpu(${p.id})">Dodaj u korpu</button>`;
+        listaProizvoda.appendChild(li);
+      });
+
+      const listaKorpe = document.getElementById("korpa");
+      listaKorpe.innerHTML = "";
+      korpa.forEach(p => {
+        const li = document.createElement("li");
+        li.innerHTML = `${p.naziv} - ${p.cena} RSD <button onclick="ukloniIzKorpe(${p.id})">Ukloni</button>`;
+        listaKorpe.appendChild(li);
+      });
+
+      const ukupno = korpa.reduce((suma, p) => suma + p.cena, 0);
+      document.getElementById("ukupno").textContent = "Ukupno: " + ukupno + " RSD";
+    }
+
+    document.getElementById("pretraga").addEventListener("input", prikazi);
+    document.getElementById("sortiranje").addEventListener("change", prikazi);
+  </script>
+</body>
+</html>
