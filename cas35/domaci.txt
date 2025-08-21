@@ -1,0 +1,29 @@
+1. To-Do lista sa čuvanjem u localStorage
+Korisnik unosi zadatke u formu, oni se prikazuju u listi i čuvaju u localStorage. Nakon refresh-a zadaci ostaju.
+
+Dodaj novi zadatak i čuvaj ga
+Prikazuj sve zadatke prilikom učitavanja stranice
+Omogući brisanje jednog zadatka
+Dodaj "Obriši sve"
+
+
+
+
+
+
+
+2. Pretraga i čuvanje poslednje unete vrednosti
+Korisnik unosi tekst za pretragu (npr. proizvoda, korisnika). Poslednja uneta vrednost se čuva u localStorage i prikazuje se prilikom ponovnog otvaranja stranice.
+
+Na svaki input, čuvaj vrednost u localStorage
+Prilikom učitavanja stranice, ako postoji prethodni unos, postavi ga u input
+Dodaj dugme "Resetuj pretragu" koje briše i iz inputa i iz localStorage
+
+
+
+3. Forma za unos korisničkog imena (personalizacija)
+Korisnik unosi svoje ime, a ono se pamti u localStorage i sledeći put se prikazuje poruka: "Zdravo, [ime]!"
+
+Čuvanje username u localStorage
+Prikaz personalizovane poruke
+Dugme za "Izmeni ime" koje uklanja ime iz localStorage
