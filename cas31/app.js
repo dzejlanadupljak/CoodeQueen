@@ -1,13 +1,13 @@
-// // Pronalazi element sa klasom "grandparent" i smešta ga u promenljivu
-// const grandparent = document.querySelector(".grandparent")
+// Pronalazi element sa klasom "grandparent" i smešta ga u promenljivu
+const grandparent = document.querySelector(".grandparent")
 
-// // Pronalazi element sa klasom "parent" i smešta ga u promenljivu
-// const parent = document.querySelector(".parent")
+// Pronalazi element sa klasom "parent" i smešta ga u promenljivu
+const parent = document.querySelector(".parent")
 
-// // Pronalazi element sa klasom "child" i smešta ga u promenljivu
-// const child = document.querySelector(".child")
+// Pronalazi element sa klasom "child" i smešta ga u promenljivu
+const child = document.querySelector(".child")
 
-// // Dodaje click event na child element - kada se klikne ispisuje "child" u konzoli
+// Dodaje click event na child element - kada se klikne ispisuje "child" u konzoli
 // child.addEventListener("click", function(){
 //     console.log("child")
 // })
@@ -27,21 +27,21 @@
 //     console.log("document")
 // })
 
-// // Dodaje još jedan click event na child element
-// // event.target pokazuje koji je tačno element kliknut
-// // event.currentTarget pokazuje na koji element je event listener vezan
-// child.addEventListener("click", event => {
-//     console.log(event.target)
-//     console.log(event.currentTarget)
-// })
+// Dodaje još jedan click event na child element
+// event.target pokazuje koji je tačno element kliknut
+// event.currentTarget pokazuje na koji element je event listener vezan
+child.addEventListener("click", event => {
+    console.log(event.target)
+    // console.log(event.currentTarget)
+})
 
-// // Dodaje click event na parent element
-// // event.stopPropagation() sprečava da se event propagira do nadređenih elemenata
-// // Samo će se ispisati "kliknuto je parent", a ne i "grandparent" i "document"
-// parent.addEventListener("click", event => {
-//     event.stopPropagation();
-//     console.log("kliknuto je parent")
-// })
+// Dodaje click event na parent element
+// event.stopPropagation() sprečava da se event propagira do nadređenih elemenata
+// Samo će se ispisati "kliknuto je parent", a ne i "grandparent" i "document"
+parent.addEventListener("click", event => {
+    event.stopPropagation();
+    console.log("kliknuto je parent")
+})
 
 
 // // -----------------------------

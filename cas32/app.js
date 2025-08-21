@@ -73,3 +73,15 @@ document.getElementById("prikazi").addEventListener("click", function () {
 document.getElementById("pretrazivanje").addEventListener("input", function () {
     console.log("pretrazujete", this.value);
 });
+
+
+///Napiši kod koji proverava da li je danas vikend (subota ili nedelja) i ispisuje odgovarajuću poruku.
+
+const btn=document.getElementById("btn").addEventListener("click", function(){
+    const vreme=new Date();
+    if(!vreme.getDate()=== 6,0){
+        console.log("danas je vikend")
+    }else{
+        console.log("nije vikend")
+    }
+})
