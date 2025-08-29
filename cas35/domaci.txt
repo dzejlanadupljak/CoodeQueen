@@ -27,3 +27,5 @@ Korisnik unosi svoje ime, a ono se pamti u localStorage i sledeći put se prikaz
 Čuvanje username u localStorage
 Prikaz personalizovane poruke
 Dugme za "Izmeni ime" koje uklanja ime iz localStorage
+
+
